@@ -1,0 +1,59 @@
+body, div,ul, li, pre, code, form, p,i{margin: 0;padding: 0;}
+		body{ font-size: 62.5%; background-color: #fefcf3; overflow-x: hidden; width: 100%; height: auto;}
+		html, body {-webkit-text-size-adjust:none;background-color: #fefcf3; font-family:"微软雅黑"; color: #333333;  margin: 0 auto; max-width: 640px; position: relative;}/*for chrome */
+		img{border:0;vertical-align:middle;max-width: 100%;}
+		ul{ list-style: none;}
+		a{ color: #666666; text-decoration: none;}
+		.wrapper{ position: relative; width: 95%; padding: 3em 2.5%; padding-bottom: 10em; margin: 0 auto; background: #fefcf3 url(../images/mainxbg.jpg) no-repeat; background-size: 100%;}
+		.main{ border: 3px solid #7fb83d;background-color: #fefcf3; padding-bottom: 0.2em; position: relative; z-index: 2;}
+		.tplist{ border: 1px solid #dfdfdf; margin-top: 1em; box-shadow: 0px 3px 5px 1px #cccccc; background-color: #fefcf3;}
+		.tplisttitle{ width: 100%; margin: 1em 0;}
+		.tplisttitle img{ width: 45%; margin-left: 3%;}
+		.tp-top{ text-align: center; width: 50%; margin: 2em auto;}
+		.tp-top img{ width: 100%;}
+		.tplistbtn{ width: 95%; margin: 1em auto; overflow: hidden;}
+		.zan{ float: left; width: 100%;}
+		.tplistbtn p{ font-size: 1.5em; text-align: center; font-weight: bold; float: left; width: 100%;}
+		.tplistbtn-tips{ font-size: 1.3em;color: #69b865; margin-top: 0.5em; float: left;}
+		.zanbox{ float: right;font-size: 1.3em;color: #69b865;width: 5.5em;margin-top: 0.2em; text-align: right; line-height: 2; text-align: right;}
+		.zanbox a{color: #69b865; transition: all 1s;-webkit-transition: all 1s;-ms-transition: all 1s;-moz-transition: all 1s;-o-transition: all 1s;  display: block; width:5.5em; height: 100%; position: relative; }
+		.zanbox a i{ display: block; position: absolute; left: 0em; top: 0; width: 2em; height: 2em; background: url(../images/dianzan-off.png) no-repeat; background-size: cover;}
+		.zanbox a.active{ color:#54c142 ;}
+		.zanbox a.active i{background: url(../images/dianzan-on.png) no-repeat; background-size: cover;}
+		.footer{ width: 100%; position: absolute; bottom: 0px; z-index: 1;}
+		.zanbox a.active i{ animation: zan 800ms;-webkit-animation: zan 800ms;-ms-animation: zan 800ms;-moz-animation: zan 800ms;-o-animation: zan 800ms; }
+		@keyframes zan{
+			1%{transform:scale(1,1) translateY(0em); opacity: 1;}
+			50%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			75%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			90%{transform:scale(2,2) translateY(-1em); opacity: 0.5;}
+			100%{transform:scale(1,1) translateY(0em); opacity: 1;}
+		}
+		@-webkit-keyframes zan{
+			1%{transform:scale(1,1) translateY(0em); opacity: 1;}
+			50%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			75%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			90%{transform:scale(2,2) translateY(-1em); opacity: 0.5;}
+			100%{transform:scale(1,1) translateY(0em); opacity: 1;}
+		}
+		@-o-keyframes zan{
+			1%{transform:scale(1,1) translateY(0em); opacity: 1;}
+			50%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			75%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			90%{transform:scale(2,2) translateY(-1em); opacity: 0.5;}
+			100%{transform:scale(1,1) translateY(0em); opacity: 1;}
+		}
+		@-moz-keyframes zan{
+			1%{transform:scale(1,1) translateY(0em); opacity: 1;}
+			50%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			75%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			90%{transform:scale(2,2) translateY(-1em); opacity: 0.5;}
+			100%{transform:scale(1,1) translateY(0em); opacity: 1;}
+		}
+		@-ms-keyframes zan{
+			1%{transform:scale(1,1) translateY(0em); opacity: 1;}
+			50%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			75%{transform:scale(1.8,1.8) translateY(-1em); opacity: 0.5;}
+			90%{transform:scale(2,2) translateY(-1em); opacity: 0.5;}
+			100%{transform:scale(1,1) translateY(0em); opacity: 1;}
+		}
